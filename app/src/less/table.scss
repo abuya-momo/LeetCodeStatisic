@@ -1,0 +1,40 @@
+td, th {
+	text-align: center;
+	line-height: 2;
+	border: 1px solid black;
+}
+td {
+	padding: 2px 6px;
+}
+.tag {
+	padding: 5px;
+	margin: 0 5px;
+	color: #ffffff;
+	background-color: #ffa400;
+	border-radius: 6px;
+}
+.solve-better:after {
+	content: '✔';
+	padding: 5px;
+	color: #ffffff;
+	background-color: #16a951;
+	border-radius: 5px;
+}
+.solve-notbetter:after {
+	content: '✔';
+	padding: 5px;
+	color: #ffffff;
+	background-color: #afdd22;
+	border-radius: 5px;
+}
+.unsolve:after {
+	content: '✔';
+	padding: 5px;
+	color: #ffffff;
+	background-color: #ed5736;
+	border-radius: 5px;
+}
+
+.td-left {
+	text-align: left;
+}
