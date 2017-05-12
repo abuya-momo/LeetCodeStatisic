@@ -7,19 +7,25 @@ module.exports = {
     ],
     output: {
         path: 'C:/Users/luming/Desktop/learn/React/LeetCodeStatisic/app/dist',
-        publicPath: './dist',
+        publicPath: '/source/',
         filename: 'js/bundle.js'
     },
     module: {
         loaders: [{
             test: /\.js[x]?$/,
-            loader: 'jsx-loader?harmony'
+            loader: 'babel-loader',
+            options: {
+                presets: ['latest','react']
+            }
         }, {
             test: /\.scss$/,
             loader: 'style-loader!css-loader!less'
         }, {
             test: /\.(png|jpg)$/,
             loader: 'url-loader?limit=8192&name=../img/[name].[ext]'
+        }, {
+            test: /\.json$/,
+            loader: 'json-loader'
         }]
     },
     plugins: [

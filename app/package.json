@@ -9,22 +9,27 @@
   "dependencies": {
     "react": "^15.4.1",
     "react-dom": "^15.4.1",
-    "jsx-loader": "~0.13.2",
     "style-loader": "~0.12.3",
     "css-loader": "^0.26.1",
+    "json-loader": "",
     "file-loader": "^0.9.0",
     "url-loader": "^0.5.7"
   },
   "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-loader": "^6.0.0",
+    "babel-preset-react": "",
+    "babel-preset-es2015": "",
+    "babel-preset-latest": "",
     "classnames": "^2.2.5",
     "cookiejs": "^1.0.11",
     "extract-text-webpack-plugin": "^1.0.1",
     "html-webpack-plugin": "^2.25.0",
     "http-proxy-middleware": "^0.17.4",
-    "node-sass": "^4.1.1",
-    "sass-loader": "^4.1.1",
     "less": "^2.7.1",
     "less-loader": "^2.2.3",
+    "node-sass": "^4.1.1",
+    "sass-loader": "^4.1.1",
     "webpack": "^1.14.0"
   }
 }
