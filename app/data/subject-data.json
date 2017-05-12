@@ -1,0 +1,76 @@
+[{
+	"id": 0,
+	"num": "L-3",
+	"name": "Longest Substring Without Repeating Characters",
+	"nameInChinese": "最长的没有重复单词的子串",
+	"diffculty": 1,
+	"hasLearned": true,
+
+	"date": "2017-05-07",
+	"solveTime": null,
+	"thinkTime": 15,
+	"thinkClass": 2,
+	"solveClass": 0,
+	"tag": ["字符串", "判断是否已有"],
+	"solutionKeyword": ""
+}, {
+	"id": 1,
+	"num": "L-84",
+	"name": "Largest Rectangle in Histogram",
+	"nameInChinese": "柱状图中面积最大的长方形",
+	"diffculty": 2,
+	"hasLearned": true,
+
+	"date": "2017-05-09",
+	"solveTime": null,
+	"thinkTime": null,
+	"thinkClass": 1,
+	"solveClass": 0,
+	"tag": ["数组(数字)", "图表"],
+	"solutionKeyword": "升序的好求, 栈"
+}, {
+	"id": 1,
+	"num": "L-73",
+	"name": "Set Matrix Zeroes",
+	"nameInChinese": "给矩阵特定行列置0",
+	"diffculty": 1,
+	"hasLearned": true,
+
+	"date": "2017-05-09",
+	"solveTime": null,
+	"thinkTime": 60,
+	"thinkClass": 1,
+	"solveClass": 0,
+	"tag": ["矩阵", "数组(数字)"],
+	"solutionKeyword": "合理利用空间"
+}, {
+	"id": 0,
+	"num": "L-41",
+	"name": "First Missing Positive",
+	"nameInChinese": "寻找第一个丢失的正整数",
+	"diffculty": 2,
+	"hasLearned": true,
+
+	"date": "2017-05-07",
+	"solveTime": null,
+	"thinkTime": 15,
+	"thinkClass": 2,
+	"solveClass": 0,
+	"tag": ["数组(数字)", "寻找"],
+	"solutionKeyword": "桶排序"
+}, {
+	"id": 0,
+	"num": "L-4",
+	"name": "Median of Two Sorted Arrays",
+	"nameInChinese": "两个有序数组中的中间的值",
+	"diffculty": 2,
+	"hasLearned": false,
+
+	"date": "2017-05-11",
+	"solveTime": null,
+	"thinkTime": null,
+	"thinkClass": 0,
+	"solveClass": 0,
+	"tag": ["数组(数字)", "查找"],
+	"solutionKeyword": "二分法"
+}]

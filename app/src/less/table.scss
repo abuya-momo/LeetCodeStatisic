@@ -1,3 +1,9 @@
+
+
+table {
+	border: 1px solid black;
+}
+
 td, th {
 	text-align: center;
 	line-height: 2;
@@ -6,6 +12,8 @@ td, th {
 td {
 	padding: 2px 6px;
 }
+
+
 .tag {
 	padding: 5px;
 	margin: 0 5px;
@@ -13,26 +21,23 @@ td {
 	background-color: #ffa400;
 	border-radius: 6px;
 }
-.solve-better:after {
+.solve-tag-after {
 	content: '✔';
 	padding: 5px;
 	color: #ffffff;
-	background-color: #16a951;
 	border-radius: 5px;
+}
+.solve-better:after {
+	.solve-tag-after;
+	background-color: #16a951;
 }
 .solve-notbetter:after {
-	content: '✔';
-	padding: 5px;
-	color: #ffffff;
+	.solve-tag-after;
 	background-color: #afdd22;
-	border-radius: 5px;
 }
 .unsolve:after {
-	content: '✔';
-	padding: 5px;
-	color: #ffffff;
+	.solve-tag-after;
 	background-color: #ed5736;
-	border-radius: 5px;
 }
 
 .td-left {

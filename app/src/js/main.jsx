@@ -1,18 +1,7 @@
-var React = require('react');
-// var ReactDOM = require('react-dom');
+import { MainTable } from './MainTable.jsx';
+
+var data = require('../../data/subject-data.json');
+
 var CSS = require('../less/table.scss');
 
-var testES6 = (x, y) => {
-	return x + y
-}
-
-var val = testES6(6, 10);
-console.log(val);
-
-var Hhh = React.createClass({
-	render: function () {
-		return (<div>2333</div>);
-	}
-});
-
-ReactDOM.render(<Hhh />, document.getElementById('test'));
+ReactDOM.render(<MainTable data1={data}/>, document.getElementById('test'));
